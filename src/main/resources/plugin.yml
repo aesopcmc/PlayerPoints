@@ -16,6 +16,7 @@ permissions:
   playerpoints.*:
     description: Gives access to all PlayerPoints commands
     children:
+      playerpoints.rwgive: true
       playerpoints.give: true
       playerpoints.giveall: true
       playerpoints.take: true
@@ -32,6 +33,9 @@ permissions:
       playerpoints.convert: true
       playerpoints.importlegacy: true
       playerpoints.version: true
+  playerpoints.rwgive:
+    description: Gives access to the rwgive command
+    default: op
   playerpoints.give:
     description: Gives access to the give command
     default: op

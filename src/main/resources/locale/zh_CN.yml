@@ -28,6 +28,12 @@ base-command-help: '&e使用 &b/points help &e来获取命令信息。'
 command-help-description: '&8 - &d/points help &7- 显示帮助菜单... 就是您现在看着的这个'
 command-help-title: '&e可用命令:'
 
+# 奖励命令
+command-rwgive-description: '&8 - &d/points give &7- 奖励一名玩家点劵'
+command-rwgive-usage: '&c用法: &e/points rwgive <数值>'
+command-rwgive-success: '&b%player% &a被给予了 &b%amount% &a%currency%。'
+command-rwgive-received: '&e您被给予了 &b%amount% &e%currency%。'
+
 # 给予命令
 command-give-description: '&8 - &d/points give &7- 给一名玩家点劵'
 command-give-usage: '&c用法: &e/points give <玩家> <数值>'

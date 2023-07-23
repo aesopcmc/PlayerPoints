@@ -26,6 +26,7 @@ public class CommandManager extends Manager {
         EXPORT,
         GIVEALL,
         GIVE,
+        RWGIVE,
         HELP,
         IMPORT,
         IMPORTLEGACY,

@@ -19,6 +19,7 @@ public class Commander extends CommandHandler {
 
         // Register commands.
         this.registerCommand(new HelpCommand(this));
+        this.registerCommand(new RwGiveCommand());
         this.registerCommand(new GiveCommand());
         this.registerCommand(new GiveAllCommand());
         this.registerCommand(new TakeCommand());
